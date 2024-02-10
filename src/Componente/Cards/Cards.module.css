@@ -1,0 +1,13 @@
+.container{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:384px;
+    height: 152px;
+    margin-top: 64px;
+    gap: 30px;
+}
+.container img{
+    margin-bottom:30px ;
+}

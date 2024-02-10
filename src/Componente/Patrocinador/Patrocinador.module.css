@@ -1,0 +1,17 @@
+.container{
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+    border-top: 2px solid #E5E7EB;
+    border-bottom: 2px solid #E5E7EB;
+    margin: auto;
+
+}
+
+.container ul{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 64px;
+}

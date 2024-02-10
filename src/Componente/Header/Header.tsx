@@ -1,6 +1,5 @@
 import React from "react";
 import logo from '../../assets/logo.svg'
-
 import IconGoogle from '../../assets/icon-google.svg';
 import IconApple from '../../assets/icon-apple.svg';
 import style from './Header.module.css';
@@ -10,7 +9,7 @@ const Header = () => {
 
     return (
         <header className={style.header}>
-            <div>
+            <div className={style.container1}>
                 <img src={logo} alt="logo" />
                 <nav className={style.menuNav}>
                     <ul>
@@ -32,12 +31,12 @@ const Header = () => {
             </div>
 
             <div>
-                <figure className="flex">
+                <figure className={style.container2}>
                     <img src={IconGoogle} alt="" />
                     <img src={IconApple} alt="" />
                 </figure>
             </div>
-        </header>
+        </header>   
     );
 }
 

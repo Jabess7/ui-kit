@@ -1,0 +1,36 @@
+.secaoCards{
+    width: 90%;
+    margin: auto;
+}
+.cardsTitulo{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+.cardsTitulo h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #111827;
+    margin-bottom: 8px;
+
+}
+
+.cardsTitulo p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #111827;
+    line-height: 28px;
+
+
+}
+.cardsRed{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    
+}
