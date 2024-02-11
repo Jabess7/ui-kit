@@ -11,8 +11,13 @@
 
 }
 .container1{
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end
 }
+
+
 .container1>img{
     width: 142px;
     height: 116px;
@@ -27,7 +32,7 @@
     position: relative;
     margin-left: 230px;    
     padding-top: 120px;
-   
+    width: 100%;
 }
 
 .titulo h2{
@@ -44,13 +49,18 @@
     line-height: 28px;
     color: #111827;
 }
+.depoimento{
+    display: flex;
+    justify-content: end;
+    margin-top: 150px;
+}
 .depo1{
     width: 384px;
     height: 396px;    
     background-color: #fff;
-    margin-top: 64px;
-    margin-left: 340px;
+    margin-top: 64px;    
     border-radius: 8px;
+    align-self: flex-end;
 }
 .lg1{
     padding: 25px;
@@ -93,6 +103,7 @@
     margin-left: 32px;
     margin-top: 300px;
     border-radius: 8px;
+    margin-right: 100px;
 }
 
 .depo2{
