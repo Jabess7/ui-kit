@@ -11,7 +11,7 @@ import Depoimentos from "../Depoimentos";
 const Home = () => {
 
     return(
-       <>
+    <>
         <div className={style.background}>
         <Header />
         <Main/>
@@ -19,10 +19,7 @@ const Home = () => {
         <Patrocinador/>  
         <Recurso/>
         <Depoimentos/>
-           
-        
-
-       </>
+    </>
     )
 }
 export default Home;
