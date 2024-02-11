@@ -37,10 +37,35 @@ const Depoimentos = () => {
         </div>
          </div>
         <div className={style.container2}>
-        <img src={iconAirbn} alt="" />
-        <img src={iconStripi} alt="" />
+        
 
+            <div className={style.depo2}>            
+                <img src={iconAirbn} alt="" className={style.lg1} /><br />
+                <img src={iconDepo} alt="" className={style.icoDepo} />
+                <p>I used landify and created a landing page for <br />
+                    my startup within a week. The Landify UI Kit <br />
+                    is simple and highly intuitive, so anyone can <br />
+                    use it.</p>
+                <div className={style.descri}>
+                    <h4>Jane Cooper</h4>
+                    <p >CEO, Airbnb</p>
+                </div>
+               </div> 
+                <div className={style.depo3}>            
+                <img src={iconStripi} alt="" className={style.lg1} /><br />
+                <img src={iconDepo} alt="" className={style.icoDepo} />
+                <p>Landify saved our time in <br />
+                    designing my company page.</p>
+                <div className={style.descri}>
+                    <h4>Kristin Watson</h4>
+                    <p >Co-Founder, Strapi</p>
+                </div>
+                </div>
+           
         </div>
+        
+
+        
     </div>
   )
 }

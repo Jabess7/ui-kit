@@ -1,7 +1,7 @@
 .principal{
     width: 100%;    
     margin-top: 100px; 
-    height: 900px;   
+    height: 950px;   
     background-color: #D5FAFC;
     background-size: cover;    
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 .container1>img{
     width: 142px;
     height: 116px;
-    margin-top: 120px;
+    margin-top: 60px;
     margin-left: 120px;
     opacity: 30%;
     position: absolute;
@@ -25,9 +25,8 @@
 
 .titulo{
     position: relative;
-    margin-left: 230px;
-    
-    padding-top: 180px;
+    margin-left: 230px;    
+    padding-top: 120px;
    
 }
 
@@ -72,9 +71,12 @@
     margin-left: -5px;
 }
 
-.descri{
+.depo1 > .descri{
     margin-left: 37px;
     margin-top: 24px;
+}
+.depo1 > .descri h4{
+    margin-left: 10px;
 }
 .descri p{
     font-size: 14px;
@@ -86,5 +88,67 @@
 
 .container2{
     width: 50%;
+    display: flex;    
+    flex-direction: column;
+    margin-left: 32px;
+    margin-top: 300px;
+    border-radius: 8px;
 }
 
+.depo2{
+    border-radius: 8px;
+    width: 488px;
+    height: 312px;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+.depo2 > .descri {
+    margin-left: 45px;
+    margin-top: 15px;
+
+}
+.depo2 > p{
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #111827;
+    padding:  3px 35px;
+
+}
+.depo2 .descri p{
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6B7280;
+
+}
+
+.depo3{
+    border-radius: 8px;
+    width: 384px;
+    height: 256px;
+    background-color: #fff;
+}
+
+.depo3 > p{
+    
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #111827;
+    padding:  3px 35px;
+}
+.depo3 > .descri{
+    margin-left: 48px;
+}
+.depo3 .descri p{
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6B7280;
+
+}
