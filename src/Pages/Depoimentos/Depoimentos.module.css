@@ -1,17 +1,19 @@
 .principal{
     width: 100%;    
     margin-top: 100px; 
-    height: 1000px;   
+    height: 900px;   
     background-color: #D5FAFC;
-    background-size: cover;
-    
+    background-size: cover;    
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    
 
 }
 .container1{
     width: 50%;
 }
-.container1 img{
+.container1>img{
     width: 142px;
     height: 116px;
     margin-top: 120px;
@@ -43,3 +45,46 @@
     line-height: 28px;
     color: #111827;
 }
+.depo1{
+    width: 384px;
+    height: 396px;    
+    background-color: #fff;
+    margin-top: 64px;
+    margin-left: 340px;
+    border-radius: 8px;
+}
+.lg1{
+    padding: 25px;
+    position: relative;
+}
+.depo1 p{
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #111827;
+    padding:  3px 35px;
+}
+
+.icoDepo{
+    padding-top: 3px;
+    position: absolute;
+    margin-left: -5px;
+}
+
+.descri{
+    margin-left: 37px;
+    margin-top: 24px;
+}
+.descri p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6B7280;
+    margin-left: -25px;
+}
+
+.container2{
+    width: 50%;
+}
+
